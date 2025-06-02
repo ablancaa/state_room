@@ -2,7 +2,7 @@
 
 //import { useRouter } from 'vue-router'
 //import {ref} from 'vue';
-import Breadcrumb from '../components/Breadcrumb.vue'
+import BreadCrumb from '../components/BreadCrumb.vue'
 import NavBar from '@/components/NavBar.vue';
 //import {useFloating} from '@floating-ui/vue';
 
@@ -18,7 +18,7 @@ const namePage = 'Dashboard';
   <div class="container">
    <NavBar />
        <!-- Breadcrumb component -->
-   <Breadcrumb :current="namePage"/>
+   <BreadCrumb :current="namePage"/>
     <h1>Dashboard</h1>
 
 

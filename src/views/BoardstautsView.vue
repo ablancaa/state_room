@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-import Breadcrumb from '@/components/BreadCrumb.vue'
+import BreadCrumb from '@/components/BreadCrumb.vue'
 import NavBar from '@/components/NavBar.vue';
 //import { useRouter  } from 'vue-router'
 /*const router = useRouter()*/
@@ -13,7 +13,7 @@ const namePage = ref('Board Status')
     <div class="container">
    <NavBar />
        <!-- Breadcrumb component -->
-   <Breadcrumb :current="namePage"/>
+   <BreadCrumb :current="namePage"/>
     <h1>{{namePage}}</h1>
     </div>
 </template>
