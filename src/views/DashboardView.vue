@@ -23,21 +23,37 @@ const namePage = 'Dashboard';
 
 
 <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
+  <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Rooms</h5>
-        <img src="../assets/logo.png" class="card-img-left me-3" alt="..." style="width: 60px; height: auto;">
+      <h5 class="card-title">Habitacions</h5>
+      <div class="img-card">
+        <img src="../assets/images/cama.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
+      </div><br/>   
         <p class="card-text">Control de material a les habitacions.</p>
-        <router-link to="/RoomsView" class="btn btn-primary">Rooms</router-link>
+        <router-link to="/RoomsView" class="btn btn-primary">Habitacions</router-link>
       </div>
     </div>
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Esterilizacion</h5>
-        <img src="../assets/logo.png" class="card-img-left me-3" alt="..." style="width: 60px; height: auto;">
+        <h5 class="card-title">Esterilizació</h5>
+        <div class="img-card">
+          <img src="../assets/images/instrumental.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+        </div><br/>
+        <p class="card-text">Control de material per esterilitzar.</p>
+        <router-link to="/EsterilitzacioView" class="btn btn-primary">Esterilització</router-link>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-4 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Esterilizació</h5>
+        <div class="img-card">
+          <img src="../assets/images/instrumental.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+        </div><br/>
         <p class="card-text">Control de material per esterilitzar.</p>
         <router-link to="/EsterilitzacioView" class="btn btn-primary">Esterilització</router-link>
       </div>
@@ -49,9 +65,11 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Board</h5>
-        <img src="../assets/logo.png" class="card-img-left me-3" alt="..." style="width: 60px; height: auto;">
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Control pacients Unitat</h5>
+        <div class="img-card">
+          <img src="../assets/images/pizarra-inteligente.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+        </div><br/>
+        <p class="card-text">Control de pacients a l'unitat.</p>
         <router-link to="/BoardstautsView" class="btn btn-primary">Board</router-link>
       </div>
     </div>
@@ -61,8 +79,10 @@ const namePage = 'Dashboard';
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Tasks</h5>
-        <img src="../assets/logo.png" class="card-img-left me-3" alt="..." style="width: 60px; height: auto;">
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div class="img-card">
+          <img src="../assets/images/tareas.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
+        </div><br/>
+        <p class="card-text">Tasques per les TCAI.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
@@ -71,8 +91,10 @@ const namePage = 'Dashboard';
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Tasks</h5>
-        <img src="../assets/logo.png" class="card-img-left me-3" alt="..." style="width: 60px; height: auto;">
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div class="img-card">
+        <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+        </div><br/>
+        <p class="card-text">Altres continguts.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
@@ -101,4 +123,11 @@ const namePage = 'Dashboard';
   width: 60px;
   height: auto;
 }
+
+.img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  }
 </style>
