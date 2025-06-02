@@ -5,6 +5,7 @@ import RoomsView from '@/views/RoomsView.vue'
 import EsterilitzacioView from '@/views/EsterilitzacioView.vue'
 import BoardstautsView from '@/views/BoardstautsView.vue'
 import TasquesView from '@/views/TasquesView.vue'
+import DirectoriView from '@/views/DirectoriView.vue'
 const routes = [
   {
     path: '/',
@@ -35,6 +36,11 @@ const routes = [
     path: '/TasquesView',
     name: 'TasquesView',
     component: TasquesView
+  },
+  {
+    path: '/DirectoriView',
+    name: 'DirectoriView',
+    component: DirectoriView
   },
   {
     path: '/about',

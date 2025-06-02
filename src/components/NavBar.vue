@@ -15,7 +15,7 @@ import SearchBar from './SearchBar.vue';
           <router-link to="/DashboardView" class="nav-link active" aria-current="page" href="#">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/DashboardView" class="nav-link active" aria-current="page" href="#">Link</router-link>
+          <router-link to="/DirectoriView" class="nav-link active" aria-current="page" href="#">Directori</router-link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -29,7 +29,7 @@ import SearchBar from './SearchBar.vue';
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#" aria-disabled="true">About</a>
         </li>
       </ul>
       <!-- <form class="d-flex" role="search">

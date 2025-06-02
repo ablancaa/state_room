@@ -39,7 +39,7 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Esterilizació</h5>
+        <h5 class="card-title">Esterilització</h5>
         <div class="img-card">
           <img src="../assets/images/instrumental.png" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
