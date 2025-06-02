@@ -61,6 +61,7 @@ const namePage = 'Dashboard';
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Tasks</h5>
+        <img src="../assets/logo.png" class="card-img-left me-3" alt="..." style="width: 60px; height: auto;">
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
@@ -70,6 +71,7 @@ const namePage = 'Dashboard';
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Tasks</h5>
+        <img src="../assets/logo.png" class="card-img-left me-3" alt="..." style="width: 60px; height: auto;">
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
@@ -82,6 +84,19 @@ const namePage = 'Dashboard';
 </template>
 <style scoped>
 
+.card-img-left {
+  width: 60px;
+  height: auto;
+}
+
+.card {
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.08), 0 1.5px 4px 0 rgba(0,0,0,0.06);
+  border: none;
+  transition: box-shadow 0.2s;
+}
+.card:hover {
+  box-shadow: 0 8px 32px 0 rgba(0, 13, 255, 0.188), 0 3px 8px 0 rgba(0,0,0,0.10);
+}
 .card-img-left {
   width: 60px;
   height: auto;
