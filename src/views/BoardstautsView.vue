@@ -15,7 +15,7 @@ const namePage = ref('Board Status')
    <NavBar />
        <!-- Breadcrumb component -->
    <BreadCrumb :current="namePage" :pageView="'BoardstautsView.vue'"/>
-    <h1>{{namePage}}</h1>
+    <!-- <h1>{{namePage}}</h1> -->
     
     <FooterPage />
     </div>

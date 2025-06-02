@@ -1,5 +1,5 @@
 <script setup>
-
+import SearchBar from './SearchBar.vue';
 </script>
 <template>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -32,10 +32,11 @@
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
-      <form class="d-flex" role="search">
+      <!-- <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      </form> -->
+      <SearchBar />
     </div>
   </div>
 </nav>

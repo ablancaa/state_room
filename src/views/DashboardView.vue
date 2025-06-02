@@ -20,7 +20,7 @@ const namePage = 'Dashboard';
    <NavBar />
        <!-- Breadcrumb component -->
    <BreadCrumb :current="namePage"/>
-    <h1>Dashboard</h1>
+    <!-- <h1>Dashboard</h1> -->
 
 
 <div class="row">
@@ -91,12 +91,12 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Altres</h5>
+        <h5 class="card-title">Equips de treball</h5>
         <div class="img-card">
-        <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+        <img src="../assets/images/trabajo-en-equipo.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Altres continguts.</p>
-        <a href="#" class="btn btn-primary">Altres</a>
+        <p class="card-text">Asignació de equips de treball.</p>
+        <a href="#" class="btn btn-primary">Equips de treball</a>
       </div>
     </div>
   </div>
@@ -106,11 +106,11 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Tasques</h5>
+        <h5 class="card-title">Avisos</h5>
         <div class="img-card">
-          <img src="../assets/images/tareas.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/alerta.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Tasques per les TCAI.</p>
+        <p class="card-text">Avisos de l'unitat.</p>
         <router-link to="/TasquesView" class="btn btn-primary">Tasques</router-link>
       </div>
     </div>

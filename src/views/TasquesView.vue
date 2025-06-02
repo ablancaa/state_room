@@ -7,7 +7,7 @@ import FooterPage from '@/components/FooterPage.vue';
 //import { useRouter  } from 'vue-router'
 /*const router = useRouter()*/
 
-const namePage = ref('Tasques TCAI')
+const namePage = ref('Tasques de TCAI')
 </script>
 
 <template>
@@ -15,7 +15,7 @@ const namePage = ref('Tasques TCAI')
    <NavBar />
        <!-- Breadcrumb component -->
    <BreadCrumb :current="namePage" :pageView="'BoardstautsView.vue'"/>
-    <h1>{{namePage}}</h1>
+    <!-- <h1>{{namePage}}</h1> -->
     
     <FooterPage />
     </div>

@@ -209,7 +209,7 @@ const habitaciones = [
   <div class="container">
     <NavBar />
     <BreadCrumb :current="namePage" />
-    <h1>{{ namePage }}</h1>
+    <!-- <h1>{{ namePage }}</h1> -->
     <table class="table table-bordered table-hover">
       <thead>
         <tr>

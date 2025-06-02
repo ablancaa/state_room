@@ -4,7 +4,7 @@ import BreadCrumb from '@/components/BreadCrumb.vue'
 import NavBar from '@/components/NavBar.vue';
 import FooterPage from '@/components/FooterPage.vue';
 
-const namePage = ref('Rooms');
+const namePage = ref('Habitacions');
 const selectedBed = ref(null)
 
 
@@ -142,7 +142,7 @@ const rooms = ref([
   <div class="container">
     <NavBar />
     <BreadCrumb :current=namePage />
-    <h1>Rooms</h1>
+    <!-- <h1>Rooms</h1> -->
     <div class="row">
       <div class="col-sm-6 mb-3 mb-sm-0">
         <!-- Ejemplo para Petits Cremats -->
