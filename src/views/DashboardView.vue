@@ -27,7 +27,7 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-      <h5 class="card-title">Habitacions</h5>
+      <h5 class="card-title">Control Habitacions</h5>
       <div class="img-card">
         <img src="../assets/images/cama.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
       </div><br/>   
@@ -39,7 +39,7 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Esterilització</h5>
+        <h5 class="card-title">Control Esterilització</h5>
         <div class="img-card">
           <img src="../assets/images/instrumental.png" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
@@ -66,7 +66,7 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Tasques</h5>
+        <h5 class="card-title">Tasques de TCAI</h5>
         <div class="img-card">
           <img src="../assets/images/tareas.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
@@ -79,7 +79,7 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Materials</h5>
+        <h5 class="card-title">Materials a l'unitat</h5>
         <div class="img-card">
           <img src="../assets/images/materiales.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
@@ -106,7 +106,7 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3 ">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Avisos</h5>
+        <h5 class="card-title">Avisos de l'unitat</h5>
         <div class="img-card">
           <img src="../assets/images/alerta.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
