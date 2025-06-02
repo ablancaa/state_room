@@ -79,12 +79,12 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Altres</h5>
+        <h5 class="card-title">Materials</h5>
         <div class="img-card">
-          <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/materiales.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Altres continguts.</p>
-        <a href="#" class="btn btn-primary">Altres</a>
+        <p class="card-text">Materials de l'unitat.</p>
+        <a href="#" class="btn btn-primary">Materials</a>
       </div>
     </div>
   </div>
