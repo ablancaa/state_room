@@ -38,6 +38,7 @@ const breadcrumb = ref([
   color: white;
   height: 55px;
   font-size: 35px;
+  border-radius: 10px;
 }
 .breadcrumb-item {
   /* Opcional: puedes agregar estilos para los ítems */

@@ -7,7 +7,7 @@ import NavBar from '@/components/NavBar.vue';
 import FooterPage from '@/components/FooterPage.vue';
 //import {useFloating} from '@floating-ui/vue';
 
-const namePage = 'Dashboard';
+const namePage = 'Home';
 //const reference = ref(null);
 //const floating = ref(null);
 //const {floatingStyles} = useFloating(reference, floating);
@@ -25,6 +25,7 @@ const namePage = 'Dashboard';
 
 <div class="row">
   <div class="col-sm-4 mb-3">
+  <router-link to="/RoomsView">
     <div class="card">
       <div class="card-body">
       <h5 class="card-title">Control Habitacions</h5>
@@ -35,8 +36,10 @@ const namePage = 'Dashboard';
         <router-link to="/RoomsView" class="btn btn-primary">Habitacions</router-link>
       </div>
     </div>
+  </router-link>
   </div>
   <div class="col-sm-4 mb-3">
+  <router-link to="/EsterilitzacioView">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Control Esterilització</h5>
@@ -47,8 +50,10 @@ const namePage = 'Dashboard';
         <router-link to="/EsterilitzacioView" class="btn btn-primary">Esterilització</router-link>
       </div>
     </div>
+  </router-link>
   </div>
     <div class="col-sm-4 mb-3 ">
+    <router-link to="/BoardstautsView">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Control pacients Unitat</h5>
@@ -59,11 +64,13 @@ const namePage = 'Dashboard';
         <router-link to="/BoardstautsView" class="btn btn-primary">Control Unitat</router-link>
       </div>
     </div>
+    </router-link>
   </div>
 </div>
 
 <div class="row">
   <div class="col-sm-4 mb-3">
+  <router-link to="/TasquesView">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Tasques de TCAI</h5>
@@ -74,6 +81,7 @@ const namePage = 'Dashboard';
         <router-link to="/TasquesView" class="btn btn-primary">Tasques</router-link>
       </div>
     </div>
+  </router-link>
   </div>
   
   <div class="col-sm-4 mb-3">
@@ -89,6 +97,7 @@ const namePage = 'Dashboard';
     </div>
   </div>
   <div class="col-sm-4 mb-3">
+  <router-link to="/EquipsTreballView">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Equips de treball</h5>
@@ -96,9 +105,10 @@ const namePage = 'Dashboard';
         <img src="../assets/images/trabajo-en-equipo.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Asignació de equips de treball.</p>
-        <a href="#" class="btn btn-primary">Equips de treball</a>
+        <router-link to="/EquipsTreballView" class="btn btn-primary">Tasques</router-link>
       </div>
     </div>
+  </router-link>
   </div>
 </div>
 
@@ -172,5 +182,10 @@ const namePage = 'Dashboard';
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+  }
+
+  router-link,a {
+    text-decoration: none;
+    color: white;
   }
 </style>
