@@ -37,7 +37,7 @@ const rooms = ref([
     id: 'CR6',
     type: 'petits',
     beds: [
-      { name: 'Llit 1', status: 'INCOMPLERTA' },
+      { name: 'Llit 1', status: 'OK' },
       { name: 'Llit 2', status: 'INCOMPLERTA' },
     ]
   },
@@ -46,7 +46,7 @@ const rooms = ref([
     type: 'petits',
     beds: [
       { name: 'Llit 1', status: 'INCOMPLERTA' },
-      { name: 'Llit 2', status: 'INCOMPLERTA' },
+      { name: 'Llit 2', status: 'OK' },
     ]
   },
   {
@@ -106,7 +106,7 @@ const rooms = ref([
     type: 'semicritics',
     beds: [
       { name: 'Llit 1', status: 'OK' },
-      { name: 'Llit 2', status: 'INCOMPLERTA' },
+      { name: 'Llit 2', status: 'OK' },
     ]
   },
   {
