@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter  } from 'vue-router'
+import FooterPage from '@/components/FooterPage.vue'
 const router = useRouter()
 
 const email = ref('')
@@ -21,7 +22,11 @@ function handleLogin() {
 
 <template>
   <div class="d-flex align-items-center justify-content-center min-vh-100 bg-light">
+  
     <div class="card shadow p-4" style="width: 100%; max-width: 400px;">
+    <div class="justify-content-center">
+      <img src="../assets/LogoUnitatCremats.png" class="navbar-brand rounded-3" alt="..." style="width: 50px; height: auto;">
+    </div>
       <h2 class="text-center mb-4">Iniciar sesión</h2>
 
       <form @submit.prevent="handleLogin">
@@ -62,6 +67,7 @@ function handleLogin() {
       </form>
     </div>
   </div>
+  <FooterPage />
 </template>
 
 

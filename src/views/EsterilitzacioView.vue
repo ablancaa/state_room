@@ -3,6 +3,7 @@ import { ref } from 'vue'
 
 import BreadCrumb from '@/components/BreadCrumb.vue'
 import NavBar from '@/components/NavBar.vue';
+import FooterPage from '@/components/FooterPage.vue';
 //import { useRouter  } from 'vue-router'
 /*const router = useRouter()*/
 
@@ -237,5 +238,6 @@ const habitaciones = [
         </template>
       </tbody>
     </table>
+    <FooterPage />
   </div>
 </template>

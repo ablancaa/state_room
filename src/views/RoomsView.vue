@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import BreadCrumb from '@/components/BreadCrumb.vue'
 import NavBar from '@/components/NavBar.vue';
+import FooterPage from '@/components/FooterPage.vue';
 
 const namePage = ref('Rooms');
 const selectedBed = ref(null)
@@ -287,6 +288,7 @@ const rooms = ref([
         </div>
       </div>
     </div>
+    <FooterPage />
   </div><!-- FIN CONTAINER -->
 </template>
 

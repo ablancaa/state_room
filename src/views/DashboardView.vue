@@ -4,6 +4,7 @@
 //import {ref} from 'vue';
 import BreadCrumb from '../components/BreadCrumb.vue'
 import NavBar from '@/components/NavBar.vue';
+import FooterPage from '@/components/FooterPage.vue';
 //import {useFloating} from '@floating-ui/vue';
 
 const namePage = 'Dashboard';
@@ -50,12 +51,12 @@ const namePage = 'Dashboard';
     <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Esterilizació</h5>
+        <h5 class="card-title">Control pacients Unitat</h5>
         <div class="img-card">
-          <img src="../assets/images/instrumental.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/pizarra-inteligente.png" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Control de material per esterilitzar.</p>
-        <router-link to="/EsterilitzacioView" class="btn btn-primary">Esterilització</router-link>
+        <p class="card-text">Control de pacients a l'unitat.</p>
+        <router-link to="/BoardstautsView" class="btn btn-primary">Control Unitat</router-link>
       </div>
     </div>
   </div>
@@ -65,12 +66,12 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3 mb-sm-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Control pacients Unitat</h5>
+        <h5 class="card-title">Tasques</h5>
         <div class="img-card">
-          <img src="../assets/images/pizarra-inteligente.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/tareas.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Control de pacients a l'unitat.</p>
-        <router-link to="/BoardstautsView" class="btn btn-primary">Board</router-link>
+        <p class="card-text">Tasques per les TCAI.</p>
+        <router-link to="/TasquesView" class="btn btn-primary">Tasques</router-link>
       </div>
     </div>
   </div>
@@ -78,29 +79,71 @@ const namePage = 'Dashboard';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Tasks</h5>
+        <h5 class="card-title">Altres</h5>
         <div class="img-card">
-          <img src="../assets/images/tareas.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Tasques per les TCAI.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <p class="card-text">Altres continguts.</p>
+        <a href="#" class="btn btn-primary">Altres</a>
       </div>
     </div>
   </div>
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Tasks</h5>
+        <h5 class="card-title">Altres</h5>
         <div class="img-card">
         <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Altres continguts.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Altres</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="col-sm-4 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Tasques</h5>
+        <div class="img-card">
+          <img src="../assets/images/tareas.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
+        </div><br/>
+        <p class="card-text">Tasques per les TCAI.</p>
+        <router-link to="/TasquesView" class="btn btn-primary">Tasques</router-link>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-4 mb-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Altres</h5>
+        <div class="img-card">
+          <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+        </div><br/>
+        <p class="card-text">Altres continguts.</p>
+        <a href="#" class="btn btn-primary">Altres</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 mb-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Altres</h5>
+        <div class="img-card">
+        <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+        </div><br/>
+        <p class="card-text">Altres continguts.</p>
+        <a href="#" class="btn btn-primary">Altres</a>
       </div>
     </div>
   </div>
 </div>
   
+
+    <FooterPage />
 
 </div>
 </template>
