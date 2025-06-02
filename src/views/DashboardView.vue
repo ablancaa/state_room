@@ -24,7 +24,7 @@ const namePage = 'Dashboard';
 
 
 <div class="row">
-  <div class="col-sm-4 mb-3 mb-sm-0">
+  <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
       <h5 class="card-title">Habitacions</h5>
@@ -36,7 +36,7 @@ const namePage = 'Dashboard';
       </div>
     </div>
   </div>
-  <div class="col-sm-4 mb-3 mb-sm-0">
+  <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Esterilització</h5>
@@ -48,7 +48,7 @@ const namePage = 'Dashboard';
       </div>
     </div>
   </div>
-    <div class="col-sm-4 mb-3 mb-sm-0">
+    <div class="col-sm-4 mb-3 ">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Control pacients Unitat</h5>
@@ -61,9 +61,9 @@ const namePage = 'Dashboard';
     </div>
   </div>
 </div>
-<br/>
+
 <div class="row">
-  <div class="col-sm-4 mb-3 mb-sm-0">
+  <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Tasques</h5>
@@ -101,9 +101,9 @@ const namePage = 'Dashboard';
     </div>
   </div>
 </div>
-<br/>
+
 <div class="row">
-  <div class="col-sm-4 mb-3 mb-sm-0">
+  <div class="col-sm-4 mb-3 ">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Avisos</h5>

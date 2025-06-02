@@ -7,7 +7,7 @@ import FooterPage from '@/components/FooterPage.vue';
 //import { useRouter  } from 'vue-router'
 /*const router = useRouter()*/
 
-const namePage = ref('Board Status')
+const namePage = ref('Control de pacients')
 </script>
 
 <template>
