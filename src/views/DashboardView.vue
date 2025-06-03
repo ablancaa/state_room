@@ -141,11 +141,11 @@ const namePage = 'Home';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Altres</h5>
+        <h5 class="card-title">Incidències</h5>
         <div class="img-card">
-        <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+        <img src="../assets/images/diario.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Altres continguts.</p>
+        <p class="card-text">Incidències.</p>
         <a href="#" class="btn btn-primary">Altres</a>
       </div>
     </div>
