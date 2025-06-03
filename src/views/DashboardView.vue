@@ -129,12 +129,12 @@ const namePage = 'Home';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Altres</h5>
+        <h5 class="card-title">Carros de cures</h5>
         <div class="img-card">
-          <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/carro.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Altres continguts.</p>
-        <a href="#" class="btn btn-primary">Altres</a>
+        <p class="card-text">Contingut dels diferents carros.</p>
+        <a href="#" class="btn btn-primary">Carros de cures</a>
       </div>
     </div>
   </div>
