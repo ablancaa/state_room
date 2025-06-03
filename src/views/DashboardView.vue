@@ -44,7 +44,7 @@ const namePage = 'Home';
       <div class="card-body">
         <h5 class="card-title">Control Esterilització</h5>
         <div class="img-card">
-          <img src="../assets/images/instrumental.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/bisturi.png" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Control de material per esterilitzar.</p>
         <router-link to="/EsterilitzacioView" class="btn btn-primary">Esterilització</router-link>
