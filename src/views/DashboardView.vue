@@ -58,7 +58,7 @@ const namePage = 'Home';
       <div class="card-body">
         <h5 class="card-title">Control pacients Unitat</h5>
         <div class="img-card">
-          <img src="../assets/images/pizarra-inteligente.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/panel.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Control de pacients a l'unitat.</p>
         <router-link to="/BoardstautsView" class="btn btn-primary">Control Unitat</router-link>
