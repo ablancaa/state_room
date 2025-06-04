@@ -69,27 +69,29 @@ const tasques = [
    <BreadCrumb :current="namePage" :pageView="'BoardstautsView.vue'"/>
     <!-- <h1>{{namePage}}</h1> -->
     
-<table class="table table-bordered table-hover">
-  <thead class="table-primary">
-    <tr>
-      <th>Habitacions / Zona</th>
-      <th>Tasques</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr v-for="(grupo, idx) in tasques" :key="idx">
-      <td class="fw-bold align-middle" style="width: 350px;">
-        {{ grupo.titulo }}
-        <div v-if="grupo.subzona" class="fw-normal fst-italic">{{ grupo.subzona }}</div>
-      </td>
-      <td class="text-start align-middle">
-        <ul class="mb-0">
-          <li v-for="(tarea, i) in grupo.tareas" :key="i">{{ tarea }}</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-responsive">
+  <table class="table table-bordered table-hover">
+    <thead class="table-primary">
+      <tr>
+        <th>Habitacions / Zona</th>
+        <th>Tasques</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="(grupo, idx) in tasques" :key="idx">
+        <td class="fw-bold align-middle" style="width: 350px;">
+          {{ grupo.titulo }}
+          <div v-if="grupo.subzona" class="fw-normal fst-italic">{{ grupo.subzona }}</div>
+        </td>
+        <td class="text-start align-middle">
+          <ul class="mb-0">
+            <li v-for="(tarea, i) in grupo.tareas" :key="i">{{ tarea }}</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
     <FooterPage />
