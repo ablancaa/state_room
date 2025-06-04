@@ -44,7 +44,7 @@ const namePage = 'Home';
       <div class="card-body">
         <h5 class="card-title">Control Esterilització</h5>
         <div class="img-card">
-          <img src="../assets/images/instrumental.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/bisturi.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Control de material per esterilitzar.</p>
         <router-link to="/EsterilitzacioView" class="btn btn-primary">Esterilització</router-link>
@@ -58,7 +58,7 @@ const namePage = 'Home';
       <div class="card-body">
         <h5 class="card-title">Control pacients Unitat</h5>
         <div class="img-card">
-          <img src="../assets/images/pizarra-inteligente.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/panel.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Control de pacients a l'unitat.</p>
         <router-link to="/BoardstautsView" class="btn btn-primary">Control Unitat</router-link>
@@ -129,23 +129,23 @@ const namePage = 'Home';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Altres</h5>
+        <h5 class="card-title">Carros de cures</h5>
         <div class="img-card">
-          <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+          <img src="../assets/images/carro.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Altres continguts.</p>
-        <a href="#" class="btn btn-primary">Altres</a>
+        <p class="card-text">Contingut dels diferents carros.</p>
+        <a href="#" class="btn btn-primary">Carros de cures</a>
       </div>
     </div>
   </div>
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Altres</h5>
+        <h5 class="card-title">Incidències</h5>
         <div class="img-card">
-        <img src="../assets/logo.png" class="img-card" alt="..." style="width: 60px; height: auto;">
+        <img src="../assets/images/diario.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
-        <p class="card-text">Altres continguts.</p>
+        <p class="card-text">Incidències.</p>
         <a href="#" class="btn btn-primary">Altres</a>
       </div>
     </div>
