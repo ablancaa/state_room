@@ -9,12 +9,12 @@ import FooterPage from '@/components/FooterPage.vue';
 
 const namePage = ref('Equips de Treball')
 
-const arrayEnf = ["Carvajales", "Enf2", "Enf3", "Enf4", "Enf5", "Enf6", "Enf7", "Enf8", "Enf9",
-    "Enf10", "Enf11", "Enf12", "Enf13"];
-const arrayAux = ["Miriam", "María", "P. Manjón", "Vanessa", "Montse. G", "P. Sebastian", "Alberto", "Mª Luz", "Lourdes",
+const arrayEnf = ["Carvajales / Raquel", "Marta / Mónica", "Iñaki / Lola", "Elena / Marisa", "Cercós / Carreras", "Clara / Montse H.", "Jony / Tere", "Silvia / Pili A.", "Miriam V. / Isa",
+    "Laura / Mireia", "Enf11", "Laura G.", "Mª José"];
+const arrayAux = ["Miriam / Merche", "María / Maribel", "P. Manjón", "Vanessa", "Montse. G", "P. Sebastian", "Alberto", "Mª Luz", "Lourdes",
     "Elena", "Sandra/Dalila"];
-const arrayHab = ["1-2", "11-12", "3-4", "SOP", "COR P", "13-14", "H DIA", "5-6", "15-16",
-    "7-8", "SOP", "9-10", "COR G"];
+const arrayHab = ["CR01-02", "CR11-12", "CR03-04", "SOP", "COR P", "CR13-14", "H DIA", "CR05-06", "CR15-16",
+    "CR07-08", "SOP", "CR09-10", "COR G"];
 const arrayMesos = ["Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost",
     "Setembre", "Octubre", "Novembre", "Desembre"];
 
