@@ -63,37 +63,34 @@ const tasques = [
 </script>
 
 <template>
-    <div class="container">
-   <NavBar />
-       <!-- Breadcrumb component -->
-   <BreadCrumb :current="namePage" :pageView="'BoardstautsView.vue'"/>
-    <!-- <h1>{{namePage}}</h1> -->
-    
-<div class="table-responsive">
-  <table class="table table-bordered table-hover">
-    <thead class="table-primary">
-      <tr>
-        <th>Habitacions / Zona</th>
-        <th>Tasques</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr v-for="(grupo, idx) in tasques" :key="idx">
-        <td class="fw-bold align-middle" style="width: 350px;">
-          {{ grupo.titulo }}
-          <div v-if="grupo.subzona" class="fw-normal fst-italic">{{ grupo.subzona }}</div>
-        </td>
-        <td class="text-start align-middle">
-          <ul class="mb-0">
-            <li v-for="(tarea, i) in grupo.tareas" :key="i">{{ tarea }}</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+  <div class="container">
+    <NavBar />
+    <BreadCrumb :current="namePage" :pageView="'BoardstautsView.vue'" />
 
+    <div class="row">
+      <div
+        v-for="(grupo, idx) in tasques"
+        :key="idx"
+        class="col-12 col-md-12 mb-3"
+      >
+        <div class="row g-0">
+          <!-- Columna izquierda: zona i títol -->
+          <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center bg-light border-end rounded-start px-3 py-2">
+            <div>
+              <h5 class="mb-1 text-center">{{ grupo.titulo }}</h5>
+              <div v-if="grupo.subzona" class="text-muted fst-italic text-center">{{ grupo.subzona }}</div>
+            </div>
+          </div>
+          <!-- Columna dreta: tasques -->
+          <div class="col-12 col-md-6 bg-white rounded-end px-3 py-2">
+            <ul class="mb-0 text-start">
+              <li v-for="(tarea, i) in grupo.tareas" :key="i">{{ tarea }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <FooterPage />
-    </div>
+  </div>
 </template>

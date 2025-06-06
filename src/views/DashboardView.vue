@@ -105,7 +105,7 @@ const namePage = 'Home';
         <img src="../assets/images/trabajo-en-equipo.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Asignació de equips de treball.</p>
-        <router-link to="/EquipsTreballView" class="btn btn-primary">Tasques</router-link>
+        <router-link to="/EquipsTreballView" class="btn btn-primary">Equips de treball</router-link>
       </div>
     </div>
   </router-link>
@@ -121,7 +121,7 @@ const namePage = 'Home';
           <img src="../assets/images/alerta.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Avisos de l'unitat.</p>
-        <router-link to="/TasquesView" class="btn btn-primary">Tasques</router-link>
+        <router-link to="/TasquesView" class="btn btn-primary">Avisos de l'unitat</router-link>
       </div>
     </div>
   </div>
@@ -141,12 +141,12 @@ const namePage = 'Home';
   <div class="col-sm-4 mb-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Incidències</h5>
+        <h5 class="card-title">Incidències de l'unitat</h5>
         <div class="img-card">
         <img src="../assets/images/diario.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Incidències.</p>
-        <a href="#" class="btn btn-primary">Altres</a>
+        <a href="#" class="btn btn-primary">Incidències</a>
       </div>
     </div>
   </div>
