@@ -4,7 +4,7 @@
 <template>
   <footer class="bg-light text-center text-lg-start ">
     <div class="text-center p-3 border" style="background-color: rgba(27, 0, 255);">
-     <p>© 2025 Copyright: <a class="text-white" href="https://hospital.vallhebron.com/assistencia/especialitats/cirurgia-plastica-i-cremats">Unitat de Cremats</a></p>
+     <p>© 2026 Copyright: <a class="text-white" href="https://hospital.vallhebron.com/assistencia/especialitats/cirurgia-plastica-i-cremats">Unitat de Cremats</a></p>
      <p>Designer: Alberto Blanca Alcaide</p> 
       
     </div>

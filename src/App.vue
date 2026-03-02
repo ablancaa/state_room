@@ -1,5 +1,7 @@
 <template>
-  <router-view/>
+  <transition name="fade" mode="out-in">    
+      <router-view :key="$route.fullPath" />
+    </transition>
 </template>
 
 <style>
@@ -13,6 +15,15 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* una simple fundido */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .2s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
 /* nav {
   padding: 30px;
 }

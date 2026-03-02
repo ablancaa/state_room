@@ -11,13 +11,14 @@ const error = ref('')
 function handleLogin() {
   error.value = ''
   if (email.value === 'ablancaa@gmail.com' && password.value === '123456') {
-    alert('¡Bienvenido!')
+    //alert('¡Bienvenido!')
     // Redirecció o gestió d'autenticació aquí
-    router.push('/DashboardView')
+    router.push({ name: 'Dashboard' })
   } else {
     error.value = 'Correo o contraseña incorrectos.'
   }
 }
+
 </script>
 
 <template>

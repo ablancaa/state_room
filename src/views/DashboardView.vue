@@ -1,5 +1,5 @@
 <script setup>
-
+console.log('DashboardView montado')
 //import { useRouter } from 'vue-router'
 //import {ref} from 'vue';
 import BreadCrumb from '../components/BreadCrumb.vue'
@@ -150,8 +150,9 @@ const namePage = 'Home';
       </div>
     </div>
   </div>
-</div>
   
+</div>
+
 
     <FooterPage />
 

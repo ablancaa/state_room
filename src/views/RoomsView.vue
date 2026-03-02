@@ -106,7 +106,7 @@ const rooms = ref([
     id: 'CR3',
     type: 'semicritics',
     beds: [
-      { name: 'Llit 1', status: 'OK' },
+      { name: 'Llit 1', status: 'INCOMPLERTA' },
       { name: 'Llit 2', status: 'OK' },
     ]
   },
@@ -288,8 +288,19 @@ const rooms = ref([
         </div>
       </div>
     </div>
+    <!-- FIN MODAL -->
+
+
+
+
+
+
     <FooterPage />
   </div><!-- FIN CONTAINER -->
+  
+
+
+
 </template>
 
 <style scoped>
