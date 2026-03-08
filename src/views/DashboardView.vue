@@ -15,7 +15,7 @@ const namePage = 'Home';
 
 </script>
 <template>
-<div class="container fixed-top mb-5 pb-5">
+<div class="container fixed-top mb-5">
     <NavBar />
     <BreadCrumb :current=namePage />
 </div>
@@ -150,10 +150,10 @@ const namePage = 'Home';
   </div>
   
 </div>
-
-
+<br/><br/><br/>
+<div class="container fixed-bottom mt-6">
     <FooterPage />
-
+</div>
 </div>
 </template>
 <style scoped>

@@ -155,7 +155,7 @@ const rooms = ref([
 
 
 
-    <div class="container fixed-top mb-5 pb-5">
+    <div class="container fixed-top mb-5">
 
     <NavBar />
     <BreadCrumb :current=namePage />
@@ -164,7 +164,7 @@ const rooms = ref([
     <div class="container mt-5 pt-5">
         <!-- <h1>{{namePage}}</h1> -->
     <!-- <h1>Rooms</h1> -->
-        <div class="habitaciones mt-5">
+        <div class="habitaciones mt-5 pt-2">
       <div
         v-for="hab in habitaciones"
         :key="hab.id"
@@ -411,7 +411,10 @@ const rooms = ref([
 
 
 
+<br/><br/><br/>
+<div class="container fixed-bottom mt-6">
     <FooterPage />
+</div>
   </div><!-- FIN CONTAINER -->
   
 

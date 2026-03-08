@@ -63,9 +63,12 @@ const tasques = [
 </script>
 
 <template>
-  <div class="container">
+<div class="container fixed-top mb-5">
     <NavBar />
-    <BreadCrumb :current="namePage" :pageView="'BoardstautsView.vue'" />
+    <BreadCrumb :current=namePage />
+</div>
+<br/><br/>
+<div class="container mt-5 pt-5">
 
     <div class="row">
       <div
@@ -91,6 +94,9 @@ const tasques = [
       </div>
     </div>
 
+<br/><br/><br/>
+<div class="container fixed-bottom mt-6">
     <FooterPage />
+</div>
   </div>
 </template>
