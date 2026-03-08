@@ -1,0 +1,32 @@
+[
+  {
+    "dia": "Lunes",
+    "tipo": "DUI",
+    "nombre": "Raquel R",
+    "habitacion": "1-2",
+    "tcae": "Merche M",
+    "revision": false,
+    "fechaRevision": "",
+    "responsable": ""
+  },
+  {
+    "dia": "Lunes",
+    "tipo": "DUI",
+    "nombre": "Mónica S",
+    "habitacion": "11-12",
+    "tcae": "Maribel",
+    "revision": false,
+    "fechaRevision": "",
+    "responsable": ""
+  },
+  {
+    "dia": "Martes",
+    "tipo": "DUI",
+    "nombre": "D Carbajales",
+    "habitacion": "1-2",
+    "tcae": "Míriam C",
+    "revision": false,
+    "fechaRevision": "",
+    "responsable": ""
+  }
+]

@@ -15,14 +15,12 @@ const namePage = 'Home';
 
 </script>
 <template>
-
-  <div class="container">
-   <NavBar />
-       <!-- Breadcrumb component -->
-   <BreadCrumb :current="namePage"/>
-    <!-- <h1>Dashboard</h1> -->
-
-
+<div class="container fixed-top mb-5 pb-5">
+    <NavBar />
+    <BreadCrumb :current=namePage />
+</div>
+<br/><br/>
+<div class="container mt-5 pt-5">
 <div class="row">
   <div class="col-sm-4 mb-3">
   <router-link to="/RoomsView">

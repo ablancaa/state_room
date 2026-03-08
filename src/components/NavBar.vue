@@ -1,9 +1,9 @@
 <script setup>
 import SearchBar from './SearchBar.vue';
-import { useUserStore } from '@/stores/userStore';
+//import { useUserStore } from '@/stores/userStore';
 //import { useRouter } from 'vue-router';
 
-const store = useUserStore();
+//const store = useUserStore();
 //const router = useRouter();
 
 </script>
@@ -36,10 +36,10 @@ const store = useUserStore();
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" aria-disabled="true">About</a>
+           <router-link to="/AboutView" class="nav-link" href="#" aria-disabled="true">About</router-link>
           </li>
         </ul>
-        <span class="navbar-text">[ {{ store.email }} ]</span>
+        <span class="navbar-text">[  ]</span>
 
         <SearchBar />
 

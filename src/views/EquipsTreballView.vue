@@ -6,7 +6,12 @@ import NavBar from '@/components/NavBar.vue';
 import FooterPage from '@/components/FooterPage.vue';
 //import { useRouter  } from 'vue-router'
 /*const router = useRouter()*/
+import { useHabitacionesStore } from '@/stores/habitaciones'
+import { storeToRefs } from 'pinia'
 
+const store = useHabitacionesStore()
+
+const { filtradas, busqueda } = storeToRefs(store)
 const namePage = ref('Equips de Treball')
 
 const arrayEnf = ["Carvajales / Raquel", "Marta / Mónica", "Iñaki / Lola", "Elena / Marisa", "Cercós / Carreras", "Clara / Montse H.", "Jony / Tere", "Silvia / Pili A.", "Miriam V. / Isa",
@@ -72,7 +77,75 @@ console.log(arrayFinal.value.length);
         <!-- Breadcrumb component -->
         <BreadCrumb :current="namePage" :pageView="'EquipsTreballView.vue'" />
         <!-- <h1>{{namePage}}</h1> -->
-        <table class="table table-bordered table-hover">
+<h2>Asignación de habitaciones</h2>
+
+<input
+v-model="busqueda"
+placeholder="Buscar enfermera o habitación"
+class="buscador"
+/>
+
+<table>
+
+<thead>
+<tr>
+<th>Día</th>
+<th>Tipo</th>
+<th>Enfermera</th>
+<th>Habitación</th>
+<th>TCAE</th>
+<th>Revisión</th>
+<th>Fecha</th>
+<th>Responsable</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr v-for="(item,index) in filtradas" :key="index">
+
+<td>{{item.dia}}</td>
+
+<td>{{item.tipo}}</td>
+
+<td>
+<input v-model="item.nombre">
+</td>
+
+<td>
+<input v-model="item.habitacion">
+</td>
+
+<td>
+<input v-model="item.tcae">
+</td>
+
+<td>
+<input
+type="checkbox"
+v-model="item.revision"
+/>
+</td>
+
+<td>
+<input
+type="date"
+v-model="item.fechaRevision"
+/>
+</td>
+
+<td>
+<input
+v-model="item.responsable"
+/>
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+<table class="table table-bordered table-hover">
             <thead>
                 <tr>
                     <th>Mes</th>
@@ -100,6 +173,34 @@ console.log(arrayFinal.value.length);
                 </template>
             </tbody>
         </table>
+</div>
+        
         <FooterPage />
-    </div>
+
 </template>
+<style scoped>
+.container{
+padding:20px;
+}
+
+table{
+width:100%;
+border-collapse: collapse;
+}
+
+th,td{
+border:1px solid #ccc;
+padding:8px;
+}
+
+input{
+width:100%;
+}
+
+.buscador{
+margin-bottom:15px;
+padding:8px;
+width:300px;
+}
+
+</style>

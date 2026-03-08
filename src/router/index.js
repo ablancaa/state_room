@@ -7,6 +7,7 @@ import BoardstautsView from '@/views/BoardstautsView.vue'
 import TasquesView from '@/views/TasquesView.vue'
 import DirectoriView from '@/views/DirectoriView.vue'
 import EquipsTreballView from '@/views/EquipsTreballView.vue'
+import AboutView from '@/views/AboutView.vue'
 const routes = [
   {
     path: '/',
@@ -47,6 +48,11 @@ const routes = [
     path: '/EquipsTreballView',
     name: 'EquipsTreballView',
     component: EquipsTreballView
+  },
+    {
+    path: '/AboutView',
+    name: 'AboutView',
+    component: AboutView
   },
   {
     path: '/about',
