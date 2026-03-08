@@ -11,7 +11,9 @@ import SearchBar from './SearchBar.vue';
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <img src="../assets/LogoUnitatCremats.png" class="navbar-brand  rounded-3" alt="..." style="width: 50px; height: auto;">
+     <router-link to="/Dashboard">
+        <img src="../assets/LogoUnitatCremats.png" class="navbar-brand  rounded-3" alt="..." style="width: 50px; height: auto;">
+      </router-link>
       <a class="navbar-brand" href="#"><router-link to="/Dashboard">Unitat de Cremats</router-link></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

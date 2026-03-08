@@ -182,9 +182,7 @@ v-model="item.responsable"
 
 </template>
 <style scoped>
-.container{
-padding:20px;
-}
+
 
 table{
 width:100%;
