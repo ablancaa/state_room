@@ -17,6 +17,18 @@ module.exports = defineConfig({
     msTileColor: '#1B00FF',      // Para Windows tiles (opcional)
     manifestOptions: {
       background_color: '#FFFFFF', // Fondo de splash screen
+            icons: [
+        {
+          src: './img/icons/LogoUnitatCremats.png',  // ruta relativa desde /public
+          sizes: '192x192',
+          type: 'image/png'
+        },
+        {
+          src: './img/icons/LogoUnitatCremats.png',
+          sizes: '512x512',
+          type: 'image/png'
+        }
+      ]
     }
   }
 })
