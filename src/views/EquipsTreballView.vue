@@ -175,9 +175,10 @@ v-model="item.responsable"
                 </template>
             </tbody>
         </table> -->
+        <FooterPage />
 </div>
         
-        <FooterPage />
+        
 
 </template>
 <style scoped>
