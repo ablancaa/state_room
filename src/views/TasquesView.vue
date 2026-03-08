@@ -94,9 +94,8 @@ const tasques = [
       </div>
     </div>
 
-<br/><br/><br/>
-<div class="container fixed-bottom mt-6">
+
     <FooterPage />
-</div>
+
   </div>
 </template>

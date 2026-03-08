@@ -153,8 +153,6 @@ const rooms = ref([
 
 <template>
 
-
-
     <div class="container fixed-top mb-5">
 
     <NavBar />
@@ -259,6 +257,7 @@ const rooms = ref([
         </transition>
       </div>
     </div>
+    <br/>
     <div class="row">
       <div class="col-sm-6 mb-3 mb-sm-0">
         <!-- Ejemplo para Petits Cremats -->
@@ -411,10 +410,9 @@ const rooms = ref([
 
 
 
-<br/><br/><br/>
-<div class="container fixed-bottom mt-6">
+
     <FooterPage />
-</div>
+
   </div><!-- FIN CONTAINER -->
   
 

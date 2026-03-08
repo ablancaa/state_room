@@ -90,7 +90,7 @@ const namePage = 'Home';
           <img src="../assets/images/materiales.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Materials de l'unitat.</p>
-        <a href="#" class="btn btn-primary">Materials</a>
+        <a href="https://huvh.netlify.app/" class="btn btn-primary">Materials</a>
       </div>
     </div>
   </div>
@@ -150,10 +150,9 @@ const namePage = 'Home';
   </div>
   
 </div>
-<br/><br/><br/>
-<div class="container fixed-bottom mt-6">
+
     <FooterPage />
-</div>
+
 </div>
 </template>
 <style scoped>

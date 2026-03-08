@@ -6,12 +6,12 @@ import NavBar from '@/components/NavBar.vue';
 import FooterPage from '@/components/FooterPage.vue';
 //import { useRouter  } from 'vue-router'
 /*const router = useRouter()*/
-import { useHabitacionesStore } from '@/stores/habitaciones'
-import { storeToRefs } from 'pinia'
+//import { useHabitacionesStore } from '@/stores/habitaciones'
+//import { storeToRefs } from 'pinia'
 
-const store = useHabitacionesStore()
+//const store = useHabitacionesStore()
 
-const { filtradas, busqueda } = storeToRefs(store)
+//const { filtradas, busqueda } = storeToRefs(store)
 const namePage = ref('Equips de Treball')
 
 const arrayEnf = ["Carvajales / Raquel", "Marta / Mónica", "Iñaki / Lola", "Elena / Marisa", "Cercós / Carreras", "Clara / Montse H.", "Jony / Tere", "Silvia / Pili A.", "Miriam V. / Isa",
@@ -20,8 +20,7 @@ const arrayAux = ["Miriam / Merche", "María / Maribel", "P. Manjón", "Vanessa"
     "Elena", "Sandra/Dalila"];
 const arrayHab = ["CR01-02", "CR11-12", "CR03-04", "SOP", "COR P", "CR13-14", "H DIA", "CR05-06", "CR15-16",
     "CR07-08", "SOP", "CR09-10", "COR G"];
-const arrayMesos = ["Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost",
-    "Setembre", "Octubre", "Novembre", "Desembre"];
+//const arrayMesos = ["Gener", "Febrer", "Març", "Abril", "Maig", "Juny", "Juliol", "Agost","Setembre", "Octubre", "Novembre", "Desembre"];
 
 const arrayFinal = ref([]);
 
@@ -77,7 +76,10 @@ console.log(arrayFinal.value.length);
         <!-- Breadcrumb component -->
         <BreadCrumb :current="namePage" :pageView="'EquipsTreballView.vue'" />
         <!-- <h1>{{namePage}}</h1> -->
-<h2>Asignación de habitaciones</h2>
+
+<img src="../assets/images/AsigHabitacions1.png" class="header-image" alt="..." style="width: 100%; height: auto; margin-top: 20px;">
+<img src="../assets/images/AsigHabitacions2.png" class="header-image" alt="..." style="width: 100%; height: auto; margin-top: 20px;">
+<!-- <h2>Asignación de habitaciones</h2>
 
 <input
 v-model="busqueda"
@@ -172,7 +174,7 @@ v-model="item.responsable"
                     </tr>
                 </template>
             </tbody>
-        </table>
+        </table> -->
 </div>
         
         <FooterPage />
