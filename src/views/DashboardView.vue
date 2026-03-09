@@ -6,7 +6,7 @@ import BreadCrumb from '../components/BreadCrumb.vue'
 import NavBar from '@/components/NavBar.vue';
 import FooterPage from '@/components/FooterPage.vue';
 //import {useFloating} from '@floating-ui/vue';
-
+import NotificationButton from '@/components/NotificationButton.vue';
 const namePage = 'Home';
 //const reference = ref(null);
 //const floating = ref(null);
@@ -148,7 +148,7 @@ const namePage = 'Home';
       </div>
     </div>
   </div>
-  
+  <NotificationButton />
 </div>
 
     <FooterPage />
