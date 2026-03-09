@@ -22,6 +22,7 @@ function handleLogin() {
 </script>
 
 <template>
+    
   <div class="d-flex align-items-center justify-content-center min-vh-100 bg-light">
   
     <div class="card shadow p-4" style="width: 100%; max-width: 400px;">
@@ -71,7 +72,7 @@ function handleLogin() {
   </div>
   <div class="container">
       <FooterPage />
-      </div>
+  </div>
 </template>
 
 
