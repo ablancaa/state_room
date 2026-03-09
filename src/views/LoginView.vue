@@ -40,6 +40,7 @@ function handleLogin() {
             id="email"
             class="form-control"
             placeholder="ejemplo@correo.com"
+            autocomplete="email"
             required
           />
         </div>
