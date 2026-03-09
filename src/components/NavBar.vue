@@ -1,4 +1,5 @@
 <script setup>
+//import router from '@/router';
 import SearchBar from './SearchBar.vue';
 //import { useUserStore } from '@/stores/userStore';
 //import { useRouter } from 'vue-router';
@@ -33,6 +34,7 @@ import SearchBar from './SearchBar.vue';
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><router-link class="dropdown-item" to="/PruebasComponentes">Pruebas Componentes</router-link></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>

@@ -10,6 +10,7 @@ import EquipsTreballView from '@/views/EquipsTreballView.vue'
 import AboutView from '@/views/AboutView.vue'
 import NotificacionsView from '@/views/NotificacionsView.vue'
 import IncidenciesView from '@/views/IncidenciesView.vue'
+import PruebasComponentes from '@/views/PruebasComponentes.vue'
 const routes = [
   {
     path: '/',
@@ -65,6 +66,11 @@ const routes = [
     path: '/IncidenciesView',
     name: 'IncidenciesView',
     component: IncidenciesView
+  },
+    {
+    path: '/PruebasComponentes',
+    name: 'PruebasComponentes',
+    component: PruebasComponentes
   },
   {
     path: '/about',
