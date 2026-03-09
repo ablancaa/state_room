@@ -8,6 +8,7 @@ import TasquesView from '@/views/TasquesView.vue'
 import DirectoriView from '@/views/DirectoriView.vue'
 import EquipsTreballView from '@/views/EquipsTreballView.vue'
 import AboutView from '@/views/AboutView.vue'
+import NotificacionsView from '@/views/NotificacionsView.vue'
 const routes = [
   {
     path: '/',
@@ -53,6 +54,11 @@ const routes = [
     path: '/AboutView',
     name: 'AboutView',
     component: AboutView
+  },
+      {
+    path: '/NotificacionsView',
+    name: 'NotificacionsView',
+    component: NotificacionsView
   },
   {
     path: '/about',

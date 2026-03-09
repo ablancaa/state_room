@@ -119,7 +119,7 @@ const namePage = 'Home';
           <img src="../assets/images/alerta.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Avisos de l'unitat.</p>
-        <router-link to="/TasquesView" class="btn btn-primary">Avisos de l'unitat</router-link>
+        <router-link to="/NotificacionsView" class="btn btn-primary">Avisos de l'unitat</router-link>
       </div>
     </div>
   </div>
