@@ -129,7 +129,7 @@ const sortByDate = () => {
 </div>
 
 <div class="table-wrapper">
-
+  <div class="table-responsive">
 <h2>Listado de incidencias</h2>
 
 <button @click="sortByDate">Ordenar por fecha</button>
@@ -177,7 +177,7 @@ const sortByDate = () => {
 </table>
 
 <p v-else>No hay incidencias registradas</p>
-
+</div>
 </div>
 
 <FooterPage/>
