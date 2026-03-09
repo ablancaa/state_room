@@ -9,6 +9,7 @@ import DirectoriView from '@/views/DirectoriView.vue'
 import EquipsTreballView from '@/views/EquipsTreballView.vue'
 import AboutView from '@/views/AboutView.vue'
 import NotificacionsView from '@/views/NotificacionsView.vue'
+import IncidenciesView from '@/views/IncidenciesView.vue'
 const routes = [
   {
     path: '/',
@@ -59,6 +60,11 @@ const routes = [
     path: '/NotificacionsView',
     name: 'NotificacionsView',
     component: NotificacionsView
+  },
+  {
+    path: '/IncidenciesView',
+    name: 'IncidenciesView',
+    component: IncidenciesView
   },
   {
     path: '/about',

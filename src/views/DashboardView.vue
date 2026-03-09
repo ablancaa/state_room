@@ -144,7 +144,7 @@ const namePage = 'Home';
         <img src="../assets/images/diario.gif" class="img-card" alt="..." style="width: 60px; height: auto;">
         </div><br/>
         <p class="card-text">Incidències.</p>
-        <a href="#" class="btn btn-primary">Incidències</a>
+        <router-link to="/IncidenciesView" class="btn btn-primary">Incidències</router-link>
       </div>
     </div>
   </div>
