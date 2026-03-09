@@ -52,6 +52,7 @@ function handleLogin() {
             id="password"
             class="form-control"
             placeholder="********"
+            autocomplete="current-password"
             required
           />
         </div>
