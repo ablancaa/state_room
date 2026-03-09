@@ -67,8 +67,11 @@ function handleLogin() {
         </p>
       </form>
     </div>
+
   </div>
-  <FooterPage />
+  <div class="container">
+      <FooterPage />
+      </div>
 </template>
 
 
