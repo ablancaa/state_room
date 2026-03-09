@@ -27,7 +27,22 @@ module.exports = defineConfig({
           src: './img/icons/LogoUnitatCremats.png',
           sizes: '512x512',
           type: 'image/png'
-        }
+        },
+                {
+          src: './img/icons/LogoUnitatCremats.png',
+          sizes: '128x128',
+          type: 'image/png'
+        },
+                        {
+          src: './img/icons/LogoUnitatCremats.png',
+          sizes: '48x48',
+          type: 'image/png'
+        },
+                        {
+          src: './img/icons/LogoUnitatCremats.png',
+          sizes: '16x16',
+          type: 'image/png'
+        },
       ]
     }
   }
