@@ -1,7 +1,16 @@
 /* eslint-disable no-console */
 
 import { register } from 'register-service-worker'
-
+// registerServiceWorker.js
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js')
+    .then(reg => {
+      console.log('Service Worker registrado ✅', reg)
+    })
+    .catch(err => {
+      console.log('Error al registrar Service Worker ❌', err)
+    })
+}
 if (process.env.NODE_ENV === 'production') {
   register(`${process.env.BASE_URL}service-worker.js`, {
     ready () {

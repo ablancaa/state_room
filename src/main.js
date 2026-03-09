@@ -10,7 +10,21 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue-3/dist/bootstrap-vue-3.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js' //Importa componentes de Bootstrap
 
+// Función para pedir permisos de notificación
+function requestNotificationPermission() {
+  if ('Notification' in window) {
+    Notification.requestPermission().then(permission => {
+      if (permission === 'granted') {
+        console.log('Permiso de notificaciones concedido ✅')
+      } else {
+        console.log('Permiso de notificaciones denegado ❌')
+      }
+    })
+  }
+}
 
+// Pedir permiso automáticamente al abrir
+requestNotificationPermission()
 
 
 
